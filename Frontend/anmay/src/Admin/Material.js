@@ -1,6 +1,6 @@
 import React from 'react';
 
-function sign(props) {
+function Material(props) {
     return (
         <div>
             
@@ -8,4 +8,4 @@ function sign(props) {
     );
 }
 
-export default sign;
+export default Material;
