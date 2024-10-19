@@ -15,7 +15,7 @@ exports.uploadPaper = async (req, res) => {
         // Save the paper to the database
         await newPaper.save();
         
-        res.status(201).json({ message: 'Paper uploaded successfully', paper: newPaper });
+        res.status(201).json({ message: 'Paper uploaded successfullys', paper: newPaper });
     } catch (error) {
         console.error(error);
         res.status(500).json({ message: 'Failed to upload paperss', error });
