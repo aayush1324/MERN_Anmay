@@ -18,6 +18,6 @@ exports.uploadPaper = async (req, res) => {
         res.status(201).json({ message: 'Paper uploaded successfully', paper: newPaper });
     } catch (error) {
         console.error(error);
-        res.status(500).json({ message: 'Failed to upload paper', error });
+        res.status(500).json({ message: 'Failed to upload paperss', error });
     }
 };
